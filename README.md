@@ -1,13 +1,19 @@
-# Quantifying and mitigating cross-site domain shift in AI-based dental age estimation: evidence from Brazilian panoramic radiographs - Code
+# Quantifying cross-site effect in AI-based dental age estimation: evidence from Brazilian panoramic radiographs - Code
 
 This repository contains the source code for machine learning models developed to estimate human age based on panoramic radiographs of Brazilian patients. It includes scripts for both training and evaluation.
 
-The code is provided AS IS. Should you have any questions or encounter issues, please feel free to open an issue, and the author will respond. To access the training data, follow the steps outlined in the README of this [repository](https://github.com/willianfco/cross-site-age-estimation-brazilians-dataset).
+> **Note**
+>
+> The code is provided **AS IS**. If you have any questions or encounter issues, please open an issue and the author will respond.
 
-# Citing our Work
+To access the training data, follow the steps outlined in the README of this repository:
+- [cross-site-age-estimation-brazilians-dataset](https://github.com/willianfco/cross-site-age-estimation-brazilians-dataset)
 
-If you use this codes in your research, please use the following BibTeX entry to cite our work:
+## Citing our work
 
+If you use this code in your research, please cite our work using the following BibTeX entry:
+
+```bibtex
 @article{10.1093/dmfr/twag014,
     author = {Oliveira, Willian and Oliveira, Matheus L and Haiter Neto, Francisco and Albuquerque Santos, Mariana and dos Anjos Pontual, Maria Luiza and Beltrão, Ricardo V and Pontual, Andrea A and Ramos-Perez, Flávia Maria M and Freitas, Deborah Queiroz and Zanchettin, Cleber},
     title = {Quantifying cross-site effect in AI-based dental age estimation: evidence from Brazilian panoramic radiographs},
@@ -21,3 +27,4 @@ If you use this codes in your research, please use the following BibTeX entry to
     url = {https://doi.org/10.1093/dmfr/twag014},
     eprint = {https://academic.oup.com/dmfr/advance-article-pdf/doi/10.1093/dmfr/twag014/66992588/twag014.pdf},
 }
+```
